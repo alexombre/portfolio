@@ -7,6 +7,9 @@ import rails from '../assets/ror.png';
 import bootstrap from '../assets/bootstrap.png';
 import reactNative from '../assets/react-native-2.png';
 import progressiveApp from '../assets/progressive_app.png';
+import progressTracking from '../assets/progress_tracking.png';
+import devProductivity from '../assets/dev_productivity.png'
+import peerProgramming from '../assets/peer_programming.png'
 
 const Home = () => {
   
@@ -44,12 +47,45 @@ const Home = () => {
       </div>
       
     <div className="jumbottron jumbottron-fluid bg-transparent">
+      
         <div className="container mt-5">
+          <h3  className="text-center text-dark">Compétences</h3>
+          <div class="dropdown-divider"></div>
           <ul class="list-unstyled">
             <li class="media row">
-              <img class="mr-3 col-xl-3" src={progressiveApp} alt="Progressive app image"/>
-              <div class="media-body">
+              <img class="mr-3 col-xl-5" src={progressiveApp} alt="Progressive app image"/>
+              <div class="align-self-center media-body">
                 <h5 class="mt-0 mb-1">Site Web et application mobile</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media row">
+              <div class="align-self-center media-body d-none d-lg-block">
+                <h5 class="mt-0 mb-1">Organization</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+              <img class="mr-3 col-xl-5" src={progressTracking} alt="Progressive app image"/>
+              <div class="align-self-center media-body d-block d-lg-none">
+                <h5 class="mt-0 mb-1">Organization</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media row">
+              <img class="mr-3 col-xl-5" src={devProductivity} alt="Progressive app image"/>
+              <div class="align-self-center media-body">
+                <h5 class="mt-0 mb-1">Organization</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+              
+            </li>
+            <li class="media row">
+              <div class="align-self-center media-body d-none d-lg-block">
+                <h5 class="mt-0 mb-1">Organization</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+              <img class="mr-3 col-xl-5" src={peerProgramming} alt="Progressive app image"/>
+              <div class="align-self-center media-body d-block d-lg-none">
+                <h5 class="mt-0 mb-1">Organization</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
               </div>
             </li>
