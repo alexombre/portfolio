@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3010ff2f.chunk.css",
-    "main.js": "/portfolio/static/js/main.914f6404.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.914f6404.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.9b38d45b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9b38d45b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.9edc93b8.chunk.css": "/portfolio/static/css/2.9edc93b8.chunk.css",
-    "static/js/2.6d9690c8.chunk.js": "/portfolio/static/js/2.6d9690c8.chunk.js",
-    "static/js/2.6d9690c8.chunk.js.map": "/portfolio/static/js/2.6d9690c8.chunk.js.map",
+    "static/js/2.1ee0286a.chunk.js": "/portfolio/static/js/2.1ee0286a.chunk.js",
+    "static/js/2.1ee0286a.chunk.js.map": "/portfolio/static/js/2.1ee0286a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b8ed87e1e4c1c23b148891e90467e6ed.js": "/portfolio/precache-manifest.b8ed87e1e4c1c23b148891e90467e6ed.js",
+    "precache-manifest.56e39be3bb92c208187bf4f93b40fccd.js": "/portfolio/precache-manifest.56e39be3bb92c208187bf4f93b40fccd.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.9edc93b8.chunk.css.map": "/portfolio/static/css/2.9edc93b8.chunk.css.map",
     "static/css/main.3010ff2f.chunk.css.map": "/portfolio/static/css/main.3010ff2f.chunk.css.map",
-    "static/js/2.6d9690c8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6d9690c8.chunk.js.LICENSE.txt",
+    "static/js/2.1ee0286a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1ee0286a.chunk.js.LICENSE.txt",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.ab78bb62.png",
+    "static/media/dev_productivity.png": "/portfolio/static/media/dev_productivity.761b7991.png",
+    "static/media/peer_programming.png": "/portfolio/static/media/peer_programming.775814e0.png",
+    "static/media/progress_tracking.png": "/portfolio/static/media/progress_tracking.3cbbb908.png",
     "static/media/progressive_app.png": "/portfolio/static/media/progressive_app.166b2fe7.png",
     "static/media/react-native-2.png": "/portfolio/static/media/react-native-2.9510543a.png",
     "static/media/react.png": "/portfolio/static/media/react.0ad1d17f.png",
@@ -24,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.9edc93b8.chunk.css",
-    "static/js/2.6d9690c8.chunk.js",
+    "static/js/2.1ee0286a.chunk.js",
     "static/css/main.3010ff2f.chunk.css",
-    "static/js/main.914f6404.chunk.js"
+    "static/js/main.9b38d45b.chunk.js"
   ]
 }
