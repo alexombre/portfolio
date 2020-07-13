@@ -1,0 +1,27 @@
+{
+    "home.intro": "Je m'appelle Alexandre MOUTAPAM, j'ai 22 ans et je suis developpeur web & mobile Fullstack",
+    "home.title": "Developpeur reactif pour vous mettre sur de bons rails !",
+    "home.btn.start": "En savoir plus",
+    "home.stack": "Stack Technique",
+    "home.skills.title": "Compétences",
+    "home.skills":[{
+        "title": "Site Web et application mobile",
+        "src": "progressiveApp",
+        "content": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+    },
+    {
+        "title": "Gestion de projet",
+        "src": "progressTracking",
+        "content": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+    },
+    {
+        "title": "Productivité",
+        "src": "devProductivity",
+        "content": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+    },{
+        "title": "Travail d'équipe",
+        "src": "peerProgramming",
+        "content": "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+    }]
+ 
+}
