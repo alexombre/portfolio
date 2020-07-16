@@ -71,7 +71,7 @@ const StackCards = ({ intl }) => {
                     <label for="search">Rechercher</label>
                     <input type="text" class="form-control" id="search" placeholder={research || "rechercher des technologies (ex: JavaScript, Ruby, etc...)"} value={research} onChange={(e) => setResearch(e.target.value.toLowerCase())} />
                 </div>
-                <div class="d-flex" onChange={handleCheckboxChange}>
+                <div class="d-flex flex-wrap" onChange={handleCheckboxChange}>
                 {tags.map((tag) => ( 
                     <div class="form-check form-check-inline mb-2 mx-auto">
                       <input class="form-check-input" type="checkbox" id={tag} value={tag} />

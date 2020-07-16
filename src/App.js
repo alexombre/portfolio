@@ -52,7 +52,7 @@ const App = () => {
       <Home />
       <Footer />
       <BackTop>
-        <div className="rounded bg-primary d-flex justify-content-center p-2 text-white"><FontAwesomeIcon icon={faArrowUp} /></div>
+        <div className="rounded badge-langage d-flex justify-content-center p-2"><FontAwesomeIcon icon={faArrowUp} /></div>
       </BackTop>
     </IntlProvider>
       
