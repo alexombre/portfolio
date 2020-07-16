@@ -18,22 +18,21 @@ const Home = () => {
     <div data-spy="scroll" data-target="#navbar">
       
         <div class="container">
-          <Row>
-            <Col span={12}>
+          <div class="media">
             
-              <h1>Developpeur <strong className="text-primary">react</strong>if pour vous mettre sur de bons <strong className="text-danger">rails</strong> !</h1>
+            <div class="media-body">
+              <h1 className="h2">Developpeur <strong className="text-primary">react</strong>if pour vous mettre sur de bons <strong className="text-danger">rails</strong> !</h1>
               <br/>
               <p><FormattedMessage id="home.intro" /></p>   
               <button className="btn btn-outline-primary">En savoir plus</button>
-            </Col>
-            <Col span={12}> 
-              <img
+            </div>
+            <img
                   src={webDev}
                   alt="web developper"
                   className="img-fluid"
                 />
-            </Col>
-          </Row>
+          </div>
+          
         </div>
       
       <div id="stack" className="jumbottron jumbottron-fluid bg-primary shadow">
