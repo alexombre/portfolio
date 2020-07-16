@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { injectIntl, FormattedMessage } from 'react-intl';
-import progressiveApp from 'assets/progressive_app.png';
-import progressTracking from 'assets/progress_tracking.png';
-import devProductivity from 'assets/dev_productivity.png'
-import peerProgramming from 'assets/peer_programming.png'
+import {progressiveApp, progressTracking, devProductivity, peerProgramming} from 'assets';
+
 
 
 const SkillsList = ({ intl }) => {
@@ -22,9 +20,6 @@ const SkillsList = ({ intl }) => {
     
   },[])
   
-  const stylizer = (skill,index) => {
-    return 
-  }
 
   return (
     <ul class="list-unstyled">

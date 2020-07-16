@@ -28,7 +28,7 @@ img.rotate {
     }
 
     @include media-breakpoint-only(lg) {
-        column-count: 4;
+        column-count: 5;
     }
 
     @include media-breakpoint-only(md) {
@@ -38,4 +38,29 @@ img.rotate {
     @include media-breakpoint-only(sm) {
         column-count: 2;
     }
+}
+
+.badge-framework {
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #000428, #004e92);
+}
+
+.badge-langage {
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #8E2DE2, #4A00E0);
+}
+
+.badge-design {
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.badge-database {
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #3C3B3F, #605C3C);
+}
+
+.badge-autre {
+    color: #000;
+    background-image: linear-gradient(to bottom right, #DCE35B, #45B649);
 }
