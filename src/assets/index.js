@@ -24,6 +24,9 @@ import ror from 'assets/ror.png';
 import bootstrap from 'assets/bootstrap.png';
 import css from 'assets/css.png';
 import ruby from 'assets/ruby.png';
+import wavyTop from 'assets/wavy-papercut-top.png';
+import wavyBottom from 'assets/wavy-papercut-bottom.png'
+import webDev from 'assets/webdev.png'
 
 
-export { ruby, progressiveApp, progressTracking, devProductivity, peerProgramming, antd, aws, bash,c ,cplus,docker,github,heroku,html,js,postgresql,python,redis, redux, seo, sql, stripe, react, ror, bootstrap, css }
+export { webDev, wavyTop, wavyBottom, ruby, progressiveApp, progressTracking, devProductivity, peerProgramming, antd, aws, bash,c ,cplus,docker,github,heroku,html,js,postgresql,python,redis, redux, seo, sql, stripe, react, ror, bootstrap, css }

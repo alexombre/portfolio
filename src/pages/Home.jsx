@@ -3,11 +3,8 @@ import { Row, Col, Divider, Progress } from 'antd';
 import { FormattedMessage } from 'react-intl';
 import StackCards from 'components/Home/StackCards';
 import SkillsList from 'components/Home/SkillsList';
-import webDev from 'assets/webdev.png';
-import react from 'assets/react.png';
-import rails from 'assets/ror.png';
-import bootstrap from 'assets/bootstrap.png';
-import reactNative from 'assets/react-native-2.png';
+import { wavyTop, wavyBottom, webDev } from 'assets';
+
 
 
 const Home = () => {
@@ -29,19 +26,30 @@ const Home = () => {
             <img
                   src={webDev}
                   alt="web developper"
-                  className="img-fluid"
+                  className="img-fluid w-100"
                 />
           </div>
           
         </div>
+        
       
-      <div id="stack" className="jumbottron jumbottron-fluid bg-primary shadow">
+      <div id="stack" className="jumbottron jumbottron-fluid bg-primary">
+        <img
+                  src={wavyTop}
+                  alt="wavy background papercut"
+                  className="img-fluid"
+                />
         <div className="container">
           <Divider><h3  className="text-white">Stack Technique</h3> </Divider>
          
             <StackCards />
         
         </div>
+        <img
+                  src={wavyBottom}
+                  alt="wavy background papercut"
+                  className="img-fluid"
+                />
       </div>
       
     <div id="competences" className="jumbottron jumbottron-fluid bg-transparent">
