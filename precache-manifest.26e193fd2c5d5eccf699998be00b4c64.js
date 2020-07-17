@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5202ce30ed316fd960ff9eec3dd8b06",
+    "revision": "acd7b7def1bfdcd4b2e50dd6c21e23ac",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "93f77199d30732c66fa6",
+    "revision": "6a254930cfa48f371790",
     "url": "/portfolio/static/css/2.9edc93b8.chunk.css"
   },
   {
-    "revision": "16a6e87451d32c439de2",
-    "url": "/portfolio/static/css/main.4bc921f4.chunk.css"
+    "revision": "770956d9ea4cfcf4c2f7",
+    "url": "/portfolio/static/css/main.c6a79d2d.chunk.css"
   },
   {
-    "revision": "93f77199d30732c66fa6",
-    "url": "/portfolio/static/js/2.e8fa56f6.chunk.js"
+    "revision": "6a254930cfa48f371790",
+    "url": "/portfolio/static/js/2.3e84e418.chunk.js"
   },
   {
     "revision": "5403b55c1cb422a72be68a013c0b9049",
-    "url": "/portfolio/static/js/2.e8fa56f6.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.3e84e418.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "16a6e87451d32c439de2",
-    "url": "/portfolio/static/js/main.00a006b0.chunk.js"
+    "revision": "770956d9ea4cfcf4c2f7",
+    "url": "/portfolio/static/js/main.58087a9e.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -92,10 +92,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/python.b9bbb1d7.png"
   },
   {
-    "revision": "9510543aa645f6e72a7ac76b51fde3b8",
-    "url": "/portfolio/static/media/react-native-2.9510543a.png"
-  },
-  {
     "revision": "0ad1d17f18f25d10000c84bc82e7bd9f",
     "url": "/portfolio/static/media/react.0ad1d17f.png"
   },
@@ -110,6 +106,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "00c94933fb7b3f0d269be2ca415af5f1",
     "url": "/portfolio/static/media/seo.00c94933.png"
+  },
+  {
+    "revision": "3728c392fb1b4eeb95169e51a799b13f",
+    "url": "/portfolio/static/media/wavy-papercut-bottom.3728c392.png"
+  },
+  {
+    "revision": "64294850cc4438bf3ac85387ebd399a1",
+    "url": "/portfolio/static/media/wavy-papercut-top.64294850.png"
   },
   {
     "revision": "3948ed367e5e82b78418ae9e3bd34253",
