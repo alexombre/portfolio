@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c6a79d2d.chunk.css",
-    "main.js": "/portfolio/static/js/main.58087a9e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.58087a9e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c508c71f.chunk.css",
+    "main.js": "/portfolio/static/js/main.a96cb2e5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a96cb2e5.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.9edc93b8.chunk.css": "/portfolio/static/css/2.9edc93b8.chunk.css",
-    "static/js/2.3e84e418.chunk.js": "/portfolio/static/js/2.3e84e418.chunk.js",
-    "static/js/2.3e84e418.chunk.js.map": "/portfolio/static/js/2.3e84e418.chunk.js.map",
+    "static/js/2.0faee06c.chunk.js": "/portfolio/static/js/2.0faee06c.chunk.js",
+    "static/js/2.0faee06c.chunk.js.map": "/portfolio/static/js/2.0faee06c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.26e193fd2c5d5eccf699998be00b4c64.js": "/portfolio/precache-manifest.26e193fd2c5d5eccf699998be00b4c64.js",
+    "precache-manifest.732fb1e6ffff441d727d3c84213cd4d2.js": "/portfolio/precache-manifest.732fb1e6ffff441d727d3c84213cd4d2.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.9edc93b8.chunk.css.map": "/portfolio/static/css/2.9edc93b8.chunk.css.map",
-    "static/css/main.c6a79d2d.chunk.css.map": "/portfolio/static/css/main.c6a79d2d.chunk.css.map",
-    "static/js/2.3e84e418.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3e84e418.chunk.js.LICENSE.txt",
+    "static/css/main.c508c71f.chunk.css.map": "/portfolio/static/css/main.c508c71f.chunk.css.map",
+    "static/js/2.0faee06c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0faee06c.chunk.js.LICENSE.txt",
     "static/media/antd.png": "/portfolio/static/media/antd.131655b3.png",
     "static/media/aws.png": "/portfolio/static/media/aws.663cd6f8.png",
     "static/media/bash.png": "/portfolio/static/media/bash.95d6f739.png",
@@ -25,6 +25,7 @@
     "static/media/docker.png": "/portfolio/static/media/docker.a21f5716.png",
     "static/media/github.png": "/portfolio/static/media/github.9cab3941.png",
     "static/media/js.png": "/portfolio/static/media/js.22bd9db4.png",
+    "static/media/me.png": "/portfolio/static/media/me.42bc67ed.png",
     "static/media/peer_programming.png": "/portfolio/static/media/peer_programming.775814e0.png",
     "static/media/postgresql.png": "/portfolio/static/media/postgresql.732a61ba.png",
     "static/media/progress_tracking.png": "/portfolio/static/media/progress_tracking.3cbbb908.png",
@@ -41,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.9edc93b8.chunk.css",
-    "static/js/2.3e84e418.chunk.js",
-    "static/css/main.c6a79d2d.chunk.css",
-    "static/js/main.58087a9e.chunk.js"
+    "static/js/2.0faee06c.chunk.js",
+    "static/css/main.c508c71f.chunk.css",
+    "static/js/main.a96cb2e5.chunk.js"
   ]
 }
