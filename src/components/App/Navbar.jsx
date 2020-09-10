@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   
   return (
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-primary mb-5 shadow">
-      <span class="navbar-brand mb-0 h1 text-white">Alexandre MOUTAPAM</span>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-primary shadow">
+      <span class="navbar-brand mb-0 h1"><Link class="text-white" to="/">Alexandre MOUTAPAM</Link></span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -19,15 +20,21 @@ const Navbar = () => {
         </ul>     
       </div>
       <div class="collapse navbar-collapse align-self-end justify-content-end" id="navbarNav">
-        <ul class="navbar-nav d-none">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">CV</a>
+            <Link class="nav-link text-white" to="/cv">CV</Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Demo</a>
+            <Link class="nav-link text-white" to="/project">Demo</Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Portfolio</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Langage
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">FR</a>
+              <a class="dropdown-item" href="#">EN</a>
+            </div>
           </li>          
         </ul>     
       </div>

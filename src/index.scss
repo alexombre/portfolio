@@ -32,14 +32,14 @@ img.rotate {
     }
 
     @include media-breakpoint-only(md) {
-        column-count: 3;
+        column-count: 4;
     }
 
     @include media-breakpoint-only(sm) {
         column-count: 3;
     }
     @include media-breakpoint-only(xs) {
-        column-count: 2;
+        column-count: 1;
     }
 }
 

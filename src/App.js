@@ -6,8 +6,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { BackTop } from 'antd';
 import messagesFr from './assets/translation/fr';
 import Home from './pages/Home';
+import CV from './pages/CV';
+import Project from './pages/Project';
 import Navbar from './components/App/Navbar';
 import Footer from './components/App/Footer';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch, useHistory
+} from "react-router-dom";
 
 const messages = {
     fr: messagesFr,
@@ -47,9 +54,23 @@ const App = () => {
   
   return (
     <IntlProvider locale={language} messages={messages[language]}>
-      
-      <Navbar />
-      <Home />
+      <Router>
+        <div>            
+          <Navbar /> 
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/cv">
+              <CV />
+            </Route>
+            <Route path="/project">
+              <Project />
+            </Route>
+            
+          </Switch>
+        </div>
+      </Router>
       <Footer />
       <BackTop>
         <div className="rounded badge-langage d-flex justify-content-center p-2"><FontAwesomeIcon icon={faArrowUp} /></div>

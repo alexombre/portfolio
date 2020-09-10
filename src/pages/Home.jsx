@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div data-spy="scroll" data-target="#navbar">
       
-        <div class="container">
+        <div class="container pt-5">
           <div class="media">
             
             <div class="media-body">
@@ -26,7 +26,9 @@ const Home = () => {
             <img
                   src={webDev}
                   alt="web developper"
-                  className="img-fluid w-100"
+                  className="img-fluid d-none d-md-block"
+                  width="450"
+                  heigth="300"
                 />
           </div>
           
